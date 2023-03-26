@@ -1,0 +1,81 @@
+body {
+    background: radial-gradient(rgb(0, 147, 64), green);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.set div {
+    position: absolute;
+    display: block;
+}
+
+.set div:nth-child(1) {
+    left: 0%;
+}
+
+.set div:nth-child(2) {
+    left: 10%;
+}
+
+.set div:nth-child(3) {
+    left: 25%;
+}
+
+.set div:nth-child(4) {
+    left: 33%;
+}
+
+.set div:nth-child(5) {
+    left: 45%;
+}
+
+.set div:nth-child(6) {
+    left: 60%;
+}
+
+.set div:nth-child(7) {
+    left: 79%;
+}
+
+.set div:nth-child(8) {
+    left: 84%;
+}
+
+nav {
+    line-height: 50px;
+    width: 33vw;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding-right: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
