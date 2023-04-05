@@ -3,7 +3,7 @@ ob_start();
 $_SESSION['default_page'] = 1;
 ?>
 
-    <!-- <section>
+    <section>
         <div class="set">
             <div><img src="img/leaf1.png"></div>
             <div><img src="img/leaf2.png"></div>
@@ -14,7 +14,7 @@ $_SESSION['default_page'] = 1;
             <div><img src="img/leaf1.png"></div>
             <div><img src="img/leaf2.png"></div>
         </div>
-    </section> -->
+    </section>
 
     <h1>Bienvenue chez moi !</h1>
 

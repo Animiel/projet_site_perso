@@ -30,12 +30,13 @@
         y.style.display = "none";
 
         document.getElementById("display_1").onclick = function() {
-            document.getElementById("rep_1").style.display = "none";
+            //on pourrait faire un if (x.display == "none") alors "inline" else "none" pour faire une réponse déroulante et non à sens unique
+            // x.style.display = "none";
             x.style.display = "inline";
         }
 
         document.getElementById("display_2").onclick = function() {
-            document.getElementById("rep_2").style.display = "none";
+            // y.style.display = "none";
             y.style.display = "inline";
         }
         return;

@@ -5,6 +5,11 @@ body {
     overflow: hidden;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+}
+
 section {
     width: 100%;
     height: 100%;
@@ -25,34 +30,43 @@ section {
 
 .set div:nth-child(1) {
     left: 0%;
+    animation: animate 15s infinite;
+    animation-delay: 3s;
 }
 
 .set div:nth-child(2) {
     left: 10%;
+    animation: animate 21s infinite;
 }
 
 .set div:nth-child(3) {
     left: 25%;
+    animation: animate 10s infinite;
 }
 
 .set div:nth-child(4) {
     left: 33%;
+    animation: animate 36s infinite;
 }
 
 .set div:nth-child(5) {
     left: 45%;
+    animation: animate 28s infinite;
 }
 
 .set div:nth-child(6) {
     left: 60%;
+    animation: animate 13s infinite;
 }
 
 .set div:nth-child(7) {
     left: 79%;
+    animation: animate 57s infinite;
 }
 
 .set div:nth-child(8) {
     left: 84%;
+    animation: animate 19s infinite;
 }
 
 nav {
@@ -76,6 +90,26 @@ nav a {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
+}
+
+@keyframes animate {        /*keyframes nom --> alternative à transition, nom == animation-name*/
+    0% {
+        top: -10%;
+    }
+
+    20% {
+        transform: translateX(-20px) rotate(45deg);
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 110%;
+    }
 }
