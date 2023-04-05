@@ -3,7 +3,7 @@ ob_start();
 $_SESSION['default_page'] = 1;
 ?>
 
-    <section>
+    <!-- <section>
         <div class="set">
             <div><img src="img/leaf1.png"></div>
             <div><img src="img/leaf2.png"></div>
@@ -14,7 +14,7 @@ $_SESSION['default_page'] = 1;
             <div><img src="img/leaf1.png"></div>
             <div><img src="img/leaf2.png"></div>
         </div>
-    </section>
+    </section> -->
 
     <h1>Bienvenue chez moi !</h1>
 
@@ -24,9 +24,9 @@ $_SESSION['default_page'] = 1;
 
     <p>Moi ? Personne en particulier. Une simple créature vivant dans un coin reculé de la planète Terre...</p>
 
-    <p><a href="view/portfolio.php" class="display">Sérieusement ?</a></p>
+    <label id="display_1" for="rep_1"><p>Sérieusement ?</p></label>
 
-    <p class="answer">Bon ça va, ça va...je suis un jeune homme introverti et calme, certes un peu colérique et trèèèès obstiné mais la situation est sous contrôle (je l'espère en tout cas) ! J'adore faire des blagues et je suis plutôt altruiste / empathique aussi. Et un grand romantique dans l'âme... ;p<br>
+    <p id="rep_1" class="answer">Bon ça va, ça va...je suis un jeune homme introverti et calme, certes un peu colérique et trèèèès obstiné mais la situation est sous contrôle (je l'espère en tout cas) ! J'adore faire des blagues et je suis plutôt altruiste / empathique aussi. Et un grand romantique dans l'âme... ;p<br>
     Est-ce que cette réponse vous convient mieux ?</p>
 
 
@@ -34,9 +34,9 @@ $_SESSION['default_page'] = 1;
 
     <p>Je suis venu tout droit de l'Enfer, pour répandre terreur et désolation partout où je vais !</p>
 
-    <p><a href="view/portfolio.php" class="display">...</a></p>
+    <label id="display_2" for="rep_2"><p>...</p></label>
 
-    <div class="answer">
+    <div id="rep_2" class="answer">
         <p>...</p>
         <p>Bon...pas de scénario imaginatif, j'ai compris...</p>
         <p>Je suis actuellement en France, dans la meilleure région : l'Alsace ! Le lieu exact personne ne le sait, sauf ma carte d'identité, mes proches, l'Etat, les personnes qui m'espionnent, ... Ca fait un paquet de monde quand on y pense. Autant ne pas en rajouter des millions en plus. :D</p>

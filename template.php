@@ -21,11 +21,28 @@
     </main>
 <script>
     function hide() {
-        var x = document.getElementsByClassName("answer");
+
+        var target1 = document.getElementById("display_1");
+        var target2 = document.getElementById("display_2");
+        var x = document.getElementById("rep_1");
+        var y = document.getElementById("rep_2");
         x.style.display = "none";
+        y.style.display = "none";
+
+        document.getElementById("display_1").onclick = function() {
+            document.getElementById("rep_1").style.display = "none";
+            x.style.display = "inline";
+        }
+
+        document.getElementById("display_2").onclick = function() {
+            document.getElementById("rep_2").style.display = "none";
+            y.style.display = "inline";
+        }
+        return;
     }
 
     window.onload = hide();
+    
 </script>
 </body>
 </html>
